@@ -1,0 +1,2 @@
+module Bo::UsersHelper
+end

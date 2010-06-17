@@ -5,7 +5,11 @@ gem 'rails', '3.0.0.beta3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'mysql'
+gem "compass", ">= 0.10.2"
+gem 'haml'
+gem "warden"
+gem 'devise', :git => 'git://github.com/plataformatec/devise.git', :ref => "08c5179"
 
 # Use unicorn as the web server
 # gem 'unicorn'
